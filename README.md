@@ -36,30 +36,6 @@ Teknologi yang Digunakan
 2. NumPy – komputasi numerik dan aljabar linear
 3. PyQt5 – antarmuka grafis (GUI)
 
-Struktur Folder Project
-007_DeviMaulani_KalkulatorMatriks/
-│
-├── core/
-│   ├── app.py            # Main application logic
-│   ├── history.py        # Penyimpanan dan manajemen riwayat
-│   ├── state.py          # Manajemen state aplikasi
-│   ├── theme.py          # Pengaturan tema aplikasi
-│   └── __init__.py
-│
-├── views/
-│   ├── welcome_view.py   # Halaman awal
-│   ├── matrix_view.py    # Tampilan operasi matriks
-│   ├── vector_view.py    # Tampilan operasi vektor
-│   ├── spl_view.py       # Tampilan penyelesaian SPL
-│   └── __init__.py
-│
-├── widgets/
-│   ├── dynamic_inputs.py # Widget input dinamis matriks/vektor
-│   └── __init__.py
-│
-└── README.md
-
-
 Tujuan Pengembangan
 1. Mengimplementasikan konsep aljabar linear ke dalam aplikasi Python
 2. Mengembangkan aplikasi GUI menggunakan PyQt5
