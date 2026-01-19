@@ -1,51 +1,155 @@
-Kalkulator Aljabar Linear (Matrix Calculator)
+Matrix Calculator 
 
-Deskripsi
+This application is used to perform matrix and linear algebra calculations
+in a simple and structured way.
+The main purpose of this application is to provide calculation features for:
 
-Kalkulator Aljabar Linear adalah aplikasi berbasis GUI (Graphical User Interface) yang dikembangkan menggunakan Python, NumPy, dan PyQt5 untuk melakukan perhitungan aljabar linear.
-Aplikasi ini mendukung operasi matriks, operasi vektor, serta penyelesaian Sistem Persamaan Linear (SPL) dengan validasi input yang aman dan hasil perhitungan yang akurat.
+matrix operations
+vector operations
+system of linear equations (SPL)
 
-Proyek ini dikembangkan sebagai bagian dari pembelajaran Aljabar Linear dan Pemrograman, dengan tujuan mengimplementasikan konsep matematika ke dalam aplikasi nyata berbasis GUI.
+through an interactive graphical user interface.
 
-Fitur Aplikasi
-Operasi Matriks
-1. Penjumlahan dan pengurangan matriks
-2. Perkalian matriks
-3. Transpose matriks
-4. Determinan matriks
-5. Invers matriks (jika memenuhi syarat)
+This application focuses on separating user interface, calculation logic,
+and application state to make the code easier to understand and maintain.
 
-Operasi Vektor
-1. Penjumlahan dan pengurangan vektor
-2. Perkalian skalar
-3. Perhitungan vektor dasar
+------------------------------------------------------------
 
-Sistem Persamaan Linear (SPL)
-1. Penyelesaian SPL menggunakan metode matriks
-2. Validasi hasil (solusi unik, banyak solusi, atau tidak ada solusi)
-3. Penanganan input tidak valid
+How to use this application
 
-Antarmuka GUI
-1. Dibangun menggunakan PyQt5
-2. Input dinamis sesuai ukuran matriks/vektor
-3. Navigasi halaman (Welcome, Matrix, Vector, SPL)
-4. Riwayat perhitungan
-   
-Teknologi yang Digunakan
-1. Python 3
-2. NumPy – komputasi numerik dan aljabar linear
-3. PyQt5 – antarmuka grafis (GUI)
+Before using this application, make sure you already have:
+- Python 3.10 or above
+- NumPy
+- PyQt5
 
-Tujuan Pengembangan
-1. Mengimplementasikan konsep aljabar linear ke dalam aplikasi Python
-2. Mengembangkan aplikasi GUI menggunakan PyQt5
-3. Melatih pemrograman modular dan terstruktur
-4. Menyediakan alat bantu pembelajaran matematika yang interaktif
+You need to install the required libraries before running the application.
+All calculations are performed locally and do not require an internet connection.
 
-pengembang 
+After that, you can start using the calculator through the GUI.
+You can select the type of calculation, matrix size, and input values
+based on your needs.
+
+Each calculation process consists of:
+- operation type   -> matrix / vector / SPL
+- input            -> numerical values entered by user
+- computation      -> processed using NumPy
+- output           -> result displayed on the screen
+
+------------------------------------------------------------
+
+Matrix Operations
+
+The application supports the following matrix operations:
+
+matrix addition
+matrix subtraction
+matrix multiplication
+matrix transpose
+matrix determinant
+matrix inverse (if applicable)
+
+------------------------------------------------------------
+
+Vector Operations
+
+The application also provides basic vector calculations, including:
+
+vector addition
+vector subtraction
+scalar multiplication
+basic vector computation
+
+------------------------------------------------------------
+
+System of Linear Equations (SPL)
+
+For SPL calculations, the application allows users to:
+
+input coefficient matrix
+input constant vector
+solve the system using matrix-based methods
+identify solution type (unique, infinite, or no solution)
+
+------------------------------------------------------------
+
+Running the Application
+
+Step 1
+Install required dependencies:
+
+pip install numpy PyQt5
+
+------------------------------------------------------------
+
+Step 2
+Run the application from the project directory:
+
+python core/app.py
+
+The application window will open automatically.
+
+------------------------------------------------------------
+
+Application Execution (GUI)
+
+Step 3
+Using the graphical interface, you can:
+- choose calculation category
+- input matrix or vector values
+- execute calculation
+- view results instantly
+
+All interactions are handled through the GUI
+and no command-line input is required after the application starts.
+
+------------------------------------------------------------
+
+Calculation Behavior
+
+- all calculations are performed using NumPy
+- invalid matrix dimensions are rejected
+- determinant and inverse are restricted to valid matrices
+- SPL solutions are classified as:
+  - unique solution
+  - infinite solutions
+  - no solution
+- user input is treated as runtime data and not stored permanently
+
+------------------------------------------------------------
+
+Project Purpose
+
+This project is part of the Linear Algebra / Programming course.
+The implementation is intended to help students understand:
+- matrix and vector computation
+- system of linear equations
+- numerical computation using Python
+- GUI-based application development
+
+------------------------------------------------------------
+
+Author
+
 Devi Maulani
-Mahasiswa D4 Teknik Informatika Politeknik Negeri Bandung 
+D4 Teknik Informatika
+Politeknik Negeri Bandung
 
-Lisensi
-Proyek ini dikembangkan untuk keperluan akademik dan pembelajaran.
-Bebas digunakan dan dikembangkan lebih lanjut dengan mencantumkan sumber.
+------------------------------------------------------------
+
+License
+
+This project is licensed for educational and non-commercial use.
+You are allowed to use, modify, and develop this project further
+for learning purposes.
+
+If this project is reused, modified, or developed further,
+please include proper attribution by citing the original author
+and this repository as the source.
+
+------------------------------------------------------------
+
+Warning
+
+This project is developed for educational purposes only.
+All features provided in this application are simplified versions
+of real mathematical tools. 
