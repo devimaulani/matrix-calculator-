@@ -42,7 +42,7 @@ Tujuan Pengembangan
 3. Melatih pemrograman modular dan terstruktur
 4. Menyediakan alat bantu pembelajaran matematika yang interaktif
 
-Pengembang
+pengembang 
 Devi Maulani
 Mahasiswa D4 Teknik Informatika Politeknik Negeri Bandung 
 
